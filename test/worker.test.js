@@ -82,7 +82,9 @@ test("Worker: GET / serves complete HTML with identical structure", async () => 
   assert.ok(res.headers.get("content-type").includes("text/html"));
 
   const html = await res.text();
-  assert.ok(html.includes("ModelTrace"));
+  assert.ok(html.includes("ModelTrace-Workers"));
+  assert.ok(html.includes("MTW"));
+  assert.ok(html.includes('https://github.com/spicakirakira/ModelTrace-Workers'));
   assert.ok(html.includes('id="workspace-test"'));
   assert.ok(html.includes('id="workspace-library"'));
   assert.ok(html.includes('id="test-manual"'));
