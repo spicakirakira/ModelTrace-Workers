@@ -3,6 +3,8 @@
 > 🚀 在 Cloudflare Workers 上完全运行的主动语言模型指纹归因与识别工具。
 > 本项目基于 [xqy2006/ModelTrace](https://github.com/xqy2006/ModelTrace) 进行无服务器（Serverless）重构与全功能复刻。
 
+[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/spicakirakira/modeltrace-worker)
+
 ---
 
 ## 🌟 为什么选择 ModelTrace-Worker？
@@ -21,13 +23,21 @@
 
 ## 🚀 快速上手与部署
 
-### 1. 部署到 Cloudflare Workers
+### 一键快速部署
+
+点击下方按钮，即可自动克隆到你的 GitHub 并在你的 Cloudflare 账户下一键完成构建与部署：
+
+[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/spicakirakira/modeltrace-worker)
+
+---
+
+### 手动部署到 Cloudflare Workers
 
 确保已安装 [Node.js](https://nodejs.org/) (>= 18)：
 
 ```bash
 # 1. 克隆代码仓库
-git clone https://github.com/<你的用户名>/modeltrace-worker.git
+git clone https://github.com/spicakirakira/modeltrace-worker.git
 cd modeltrace-worker
 
 # 2. 安装依赖
