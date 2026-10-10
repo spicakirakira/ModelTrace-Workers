@@ -1,6 +1,6 @@
 <div align="center">
 
-# ModelTrace-Worker
+# ModelTrace-Workers
 
 **完全运行在 Cloudflare Workers 边缘网络上的大语言模型主动指纹归因与识别工具**
 
@@ -20,7 +20,7 @@
 
 ## 📖 简介
 
-**ModelTrace-Worker** 是 [ModelTrace (xqy2006/ModelTrace)](https://github.com/xqy2006/ModelTrace) 的无服务器（Serverless）全功能移植版本。原项目依赖 Python、Flask 与 NumPy 运行，而本项目通过纯现代 JavaScript 与 Web 标准 API 进行了完全重写，无需任何云主机或 Python 环境，即可直接在全球边缘网络秒级运行。
+**ModelTrace-Workers** 是 [ModelTrace (xqy2006/ModelTrace)](https://github.com/xqy2006/ModelTrace) 的无服务器（Serverless）全功能移植版本。原项目依赖 Python、Flask 与 NumPy 运行，而本项目通过纯现代 JavaScript 与 Web 标准 API 进行了完全重写，无需任何云主机或 Python 环境，即可直接在全球边缘网络秒级运行。
 
 ### ✨ 核心特性
 
@@ -68,7 +68,7 @@ npm install
 npx wrangler deploy
 ```
 
-部署成功后，命令行会输出专属访问链接：`https://modeltrace-worker.<你的子域>.workers.dev`。
+部署成功后，命令行会输出专属访问链接：`https://modeltrace-workers.<你的子域>.workers.dev`。
 
 ---
 
