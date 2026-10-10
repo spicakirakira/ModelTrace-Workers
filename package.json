@@ -1,0 +1,18 @@
+{
+  "name": "modeltrace-worker",
+  "version": "1.0.0",
+  "description": "Serverless LLM attribution & fingerprint tool on Cloudflare Workers, ported from ModelTrace",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "test": "node --test test/*.test.js"
+  },
+  "keywords": ["modeltrace", "cloudflare-workers", "llm", "fingerprint"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "wrangler": "^3.111.0"
+  }
+}
