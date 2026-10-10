@@ -10,7 +10,7 @@
 
 <br />
 
-[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/spicakirakira/modeltrace-worker)
+[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/spicakirakira/ModelTrace-Workers)
 
 <p><em>点击上方按钮，一键将本项目克隆并部署到你自己的 Cloudflare 账户</em></p>
 
@@ -48,7 +48,7 @@
 
 ### 方式一：一键自动部署（推荐）
 
-直接点击页面顶部的 **[Deploy to Cloudflare](https://deploy.workers.cloudflare.com/?url=https://github.com/spicakirakira/modeltrace-worker)** 按钮。登录你的 Cloudflare 账户后，系统将自动 fork 仓库并完成在线构建与部署。
+直接点击页面顶部的 **[Deploy to Cloudflare](https://deploy.workers.cloudflare.com/?url=https://github.com/spicakirakira/ModelTrace-Workers)** 按钮。登录你的 Cloudflare 账户后，系统将自动 fork 仓库并完成在线构建与部署。
 
 ---
 
@@ -58,8 +58,8 @@
 
 ```bash
 # 1. 克隆代码仓库
-git clone https://github.com/spicakirakira/modeltrace-worker.git
-cd modeltrace-worker
+git clone https://github.com/spicakirakira/ModelTrace-Workers.git
+cd ModelTrace-Workers
 
 # 2. 安装依赖
 npm install
@@ -139,7 +139,7 @@ npx wrangler deploy
 ## 📁 目录结构
 
 ```text
-modeltrace-worker/
+ModelTrace-Workers/
 ├── src/
 │   ├── index.js              # Cloudflare Worker 路由分发与 API 处理入口
 │   ├── fingerprint.js        # 数字提取、特征工程与统一归因算法
